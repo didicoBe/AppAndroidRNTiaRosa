@@ -9,6 +9,7 @@ import { createAppContainer,NavigationActions } from "react-navigation";
 import Inicio from "./pages/Inicio";
 import Carrinho from "./pages/carrinho";
 import Login from "./pages/Login";
+import Admin from "./pages/Admin"
 
 import { Button } from "react-native-elements";
 
@@ -39,6 +40,14 @@ export default createAppContainer(
             Login:{
                 screen: Login,
                 name:'Login',
+                  navigationOptions: ()=> ({
+                      
+                  })
+            }
+            ,
+            Admin:{
+                screen: Admin,
+                name:'Admin',
                   navigationOptions: ()=> ({
                       
                   })

@@ -8,23 +8,31 @@ export default class Cartao extends Component {
         return (
             <View>
                 <Card
-                    image={require('../images/tapioca.jpg')}
+                    image={{uri: this.props.img}}
                     containerStyle={style.estiloCartao}
                     imageStyle={style.estiloImg}
                 >
                     
                     <View style={style.conteudoCartao}>
                         <Icon name={'cart-plus'} style={style.iconeStilo}/>
+
+
                         <View>
                             <Text style={style.textoCartao1} >
-                                Categoria
+                                {this.props.categoria}
                             </Text>
                             <Text style={style.textoCartao2} >
-                                Nome Produto
+                                {this.props.nome}
                             </Text>
                         </View>
-                        
-                        <Icon name={'cart-plus'} style={style.iconeStilo}/>
+
+
+                        <View>
+                            <Text style={style.textoValor}>
+                                R$ {this.props.valor}
+                            </Text>
+                        </View>
+                       
                     </View>
                 </Card>
             </View>
@@ -60,6 +68,10 @@ const style = StyleSheet.create({
         fontSize:12,
         color:'#ecb2b2',
         textAlign:"center"
+    },
+    textoValor:{
+        fontSize:12,
+        color:'#ecb2b2'
     }
 
 })

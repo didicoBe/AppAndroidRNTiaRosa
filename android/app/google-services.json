@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "543855024524",
+    "firebase_url": "https://tiarosa-6f561.firebaseio.com",
+    "project_id": "tiarosa-6f561",
+    "storage_bucket": "tiarosa-6f561.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543855024524:android:584c464e03a2df63535ea9",
+        "android_client_info": {
+          "package_name": "com.tiarosa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543855024524-203uo7ujk2i00ehp6lehild00a8atgd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhEUFpMIoAd1bSuRZnxB-km9fPmOTjoWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543855024524-203uo7ujk2i00ehp6lehild00a8atgd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
